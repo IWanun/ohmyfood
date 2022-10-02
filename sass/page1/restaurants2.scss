@@ -1,0 +1,41 @@
+.main_page2{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 48px 48px 0 0;
+    margin-top: -161px;
+    background-color: white;
+    h3{
+        color: red;
+    }
+
+    h2{
+        font-family: "Shrikhand", "sans-serif";
+        font-size: 32px;
+        margin-left: 20px;
+    }
+    i{
+        font-size: 32px;
+        position: absolute;
+        right: 16px;
+        bottom: 35px;
+        align-items: center;
+        padding-right: 20px;
+       
+    }
+
+    .fa-solid{
+        color: transparent;
+        background-image: linear-gradient(to top, rgb(148,0,211), rgb(255,192,203));
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: 200ms;
+    }
+    .fa-solid:hover{
+        opacity: 1;
+    }
+
+    .main_page2{
+        background-color: black;
+    }
+}

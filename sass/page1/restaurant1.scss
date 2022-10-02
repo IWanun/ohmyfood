@@ -1,0 +1,120 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 100px;
+    #title_restaurant1{
+       width: 40%;
+    }
+   a{
+    margin: 20px;
+    font-size: 22px;
+   }
+}
+
+.img_page img{
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+.img_page2 img{
+    width: 100%;
+    object-fit: cover;
+    height: 420px;
+}
+
+.main_page {
+    position: relative;
+    border: 1px solid white;
+    border-radius: 48px 48px 0 0;
+    margin-top: -64px;
+    background-color: white;
+    
+    h2{
+        font-family: "Shrikhand", "sans-serif";
+        font-size: 32px;
+        margin-left: 20px;
+    }
+    i{
+        font-size: 32px;
+        position: absolute;
+        right: 16px;
+        bottom: 35px;
+        align-items: center;
+        padding-right: 20px;
+       
+    }
+
+    .fa-solid{
+        color: transparent;
+        background-image: linear-gradient(to top, rgb(148,0,211), rgb(255,192,203));
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: 200ms;
+    }
+    .fa-solid:hover{
+        opacity: 1;
+    }
+
+    .main_page{
+        background-color: black;
+
+          h2{
+        font-family: "Shrikhand", "sans-serif";
+        font-size: 32px;
+        margin-left: 20px;
+    }
+    i{
+        font-size: 32px;
+        position: absolute;
+        right: 16px;
+        bottom: 35px;
+        align-items: center;
+        padding-right: 20px;
+       
+    }
+
+    .fa-solid{
+        color: transparent;
+        background-image: linear-gradient(to top, rgb(148,0,211), rgb(255,192,203));
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: 200ms;
+    }
+    .fa-solid:hover{
+        opacity: 1;
+    }
+
+    .main_page{
+        background-color: black;
+    }
+    }
+}
+
+
+.command{
+    margin-left: 21%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.command button{
+    width: 55vw;
+    height: 8vh;
+    border-radius: 32px;
+    background-image: linear-gradient(to top, rgb(148,0,211), rgb(255,192,203));
+    font-size: 19px;
+    color: white;
+    border: none;
+    box-shadow: 5px 6px 5px 0px grey;
+    transition: all 200ms;
+ }
+
+ .command button:hover{
+    transform: scale(1.1);
+ }
+ 
+

@@ -1,0 +1,56 @@
+.fonctionnement h3{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-size: xx-large;
+ }
+
+ .fonctionnement li{
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    border: 1px solid lightgrey ; 
+    border-radius: 16px;
+    flex-grow: 1; 
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: larger;
+    width: 95%;
+ }
+
+ .fonctionnement li:hover{
+    transform: scale(1.1);
+ }
+ 
+ .fonctionnement ol{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    list-style-type: none;
+    padding-left: 0px;
+ }
+
+ .fonctionnement span{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: #9356DC;
+    color: white;
+    border: 1px solid #9356DC;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+    
+ }
+
+ .fonctionnement i{
+    margin-right: 20px;
+    font-size: x-large;
+ }
+
+.fas.fa-store{
+    margin-right: 20px;
+    font-size: x-large;
+    color: #9356DC;
+}

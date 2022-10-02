@@ -1,0 +1,27 @@
+.reservation{
+    text-align: center;
+    margin-bottom: 150px;
+ } 
+ .reservation h2{
+    font-size: 30px;
+ }
+
+ .reservation p{
+    font-size: 20px;
+ }
+
+ .reservation button{
+    width: 55vw;
+    height: 8vh;
+    border-radius: 32px;
+    background-image: linear-gradient(to top, rgb(148,0,211), rgb(255,192,203));
+    font-size: 19px;
+    color: white;
+    border: none;
+    box-shadow: 5px 6px 5px 0px grey;
+    transition: all 200ms;
+ }
+
+ .reservation button:hover{
+    transform: scale(1.1);
+ }

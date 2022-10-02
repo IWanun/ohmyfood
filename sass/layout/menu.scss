@@ -1,0 +1,96 @@
+.menu{
+    background-color: #f6f6f6;
+    margin-bottom:100px;
+    
+  }
+
+  .menu h3{
+      margin-left: 20px;
+      font-size: xx-large;
+  }
+
+  .menu_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .menu .cards{
+      border: 1px solid white;
+      box-shadow: 2px 1px 8px 1px lightgrey;
+      border-radius: 16px;
+      margin-left: 20px;
+      width: 95%;
+      height: auto;
+      position: relative;
+
+      
+      .new{
+        position: absolute;
+        color: black;
+        margin-left: 70%;
+        margin-top: 15px;
+      }
+      .new::before{
+        content: "Nouveau";
+        height: 32px;
+        width: 80px;
+        background-color: #99E2D0;
+        color: darken($color:#99E2D0, $amount: 50%);
+        text-align: center;
+        padding-top: 8px;
+        float: right;
+        top: 32px;
+      }
+  }
+
+  .cards{
+    & .image{
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+        border-radius: 16px 16px 0 0 ;
+    
+    }
+  
+    & .image1{
+        background-image: url(../../assets/la_pallete_du_gout.jpg);
+    }
+    & .image2{
+        background-image: url(../../assets/la_note_enchanter.jpg);
+    }
+    & .image3{
+        background-image: url(../../assets/a_la_francaise.jpg);
+    }
+    & .image4{
+        background-image: url(../../assets/le_delice_des_sens.jpg);
+    }
+
+    .description{
+        position: relative;
+        h4,p{
+            padding-top: 8px;
+            margin: 8px;
+        }
+        i{
+            font-size: 32px;
+            position: absolute;
+            right: 16px;
+            bottom: 10px;
+        }
+
+        .fa-solid{
+            color: transparent;
+            background-image: linear-gradient(to top, rgb(148,0,211), rgb(255,192,203));
+            background-clip: text;
+            -webkit-background-clip: text;
+            opacity: 0;
+            transition: 200ms;
+        }
+        .fa-solid:hover{
+            opacity: 1;
+        }
+    }
+
+   
+}
