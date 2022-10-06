@@ -408,15 +408,6 @@
     gap: 16px;
     overflow: hidden;
   }
-  .menu_page .menu_page:nth-child(1) {
-    color: red;
-  }
-  .menu_page .menu_page:nth-child(2) {
-    color: red;
-  }
-  .menu_page .menu_page:nth-child(3) {
-    color: red;
-  }
   .menu_page h3 {
     margin-left: 0px;
     font-weight: 300;
@@ -447,7 +438,7 @@
     display: flex;
     overflow: hidden;
     white-space: nowrap;
-    animation: appear 3s;
+    animation: appear 1s;
   }
   .menu_item .menu_item_description {
     padding: 16px;
@@ -498,6 +489,33 @@
   }
   .menu_item:hover i {
     animation: anim 1s ease;
+  }
+  .delay-0 {
+    animation-delay: 0;
+  }
+  .delay-1 {
+    animation-delay: 0.5s;
+  }
+  .delay-2 {
+    animation-delay: 1s;
+  }
+  .delay-3 {
+    animation-delay: 1.5s;
+  }
+  .delay-4 {
+    animation-delay: 2s;
+  }
+  .delay-5 {
+    animation-delay: 2.5s;
+  }
+  .delay-6 {
+    animation-delay: 3s;
+  }
+  .delay-7 {
+    animation-delay: 3.5s;
+  }
+  .delay-8 {
+    animation-delay: 4s;
   }
 }
 @media (min-width: 800px) {
@@ -910,15 +928,6 @@
     gap: 16px;
     overflow: hidden;
   }
-  .menu_page .menu_page:nth-child(1) {
-    color: red;
-  }
-  .menu_page .menu_page:nth-child(2) {
-    color: red;
-  }
-  .menu_page .menu_page:nth-child(3) {
-    color: red;
-  }
   .menu_page h3 {
     margin-left: 0px;
     font-weight: 300;
@@ -949,7 +958,7 @@
     display: flex;
     overflow: hidden;
     white-space: nowrap;
-    animation: appear 3s;
+    animation: appear 1s;
   }
   .menu_item .menu_item_description {
     padding: 16px;
@@ -1000,6 +1009,33 @@
   }
   .menu_item:hover i {
     animation: anim 1s ease;
+  }
+  .delay-0 {
+    animation-delay: 0;
+  }
+  .delay-1 {
+    animation-delay: 0.5s;
+  }
+  .delay-2 {
+    animation-delay: 1s;
+  }
+  .delay-3 {
+    animation-delay: 1.5s;
+  }
+  .delay-4 {
+    animation-delay: 2s;
+  }
+  .delay-5 {
+    animation-delay: 2.5s;
+  }
+  .delay-6 {
+    animation-delay: 3s;
+  }
+  .delay-7 {
+    animation-delay: 3.5s;
+  }
+  .delay-8 {
+    animation-delay: 4s;
   }
 }
 @media (min-width: 561px) and (max-width: 799px) {
@@ -1412,15 +1448,6 @@
     gap: 16px;
     overflow: hidden;
   }
-  .menu_page .menu_page:nth-child(1) {
-    color: red;
-  }
-  .menu_page .menu_page:nth-child(2) {
-    color: red;
-  }
-  .menu_page .menu_page:nth-child(3) {
-    color: red;
-  }
   .menu_page h3 {
     margin-left: 0px;
     font-weight: 300;
@@ -1451,7 +1478,7 @@
     display: flex;
     overflow: hidden;
     white-space: nowrap;
-    animation: appear 3s;
+    animation: appear 1s;
   }
   .menu_item .menu_item_description {
     padding: 16px;
@@ -1502,6 +1529,33 @@
   }
   .menu_item:hover i {
     animation: anim 1s ease;
+  }
+  .delay-0 {
+    animation-delay: 0;
+  }
+  .delay-1 {
+    animation-delay: 0.5s;
+  }
+  .delay-2 {
+    animation-delay: 1s;
+  }
+  .delay-3 {
+    animation-delay: 1.5s;
+  }
+  .delay-4 {
+    animation-delay: 2s;
+  }
+  .delay-5 {
+    animation-delay: 2.5s;
+  }
+  .delay-6 {
+    animation-delay: 3s;
+  }
+  .delay-7 {
+    animation-delay: 3.5s;
+  }
+  .delay-8 {
+    animation-delay: 4s;
   }
 }
 

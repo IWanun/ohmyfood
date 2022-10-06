@@ -15,11 +15,7 @@
     flex-direction: column;
     gap: 16px;
     overflow: hidden;
-    @for $i from 1 to 4 {
-       .menu_page:nth-child(#{$i}) {
-        color: red;
-       }
-    }
+
 }
 .menu_page h3{
     margin-left: 0px;
@@ -45,19 +41,18 @@
     border-radius: 16px;
 }
 
-
 .menu_part{
     border: 1px solid white;
     border-radius: 16px;
     box-shadow: 2px 1px 8px 1px lightgrey;
     margin-bottom: 16px;
 }
-.menu_item{
+.menu_item  {
     margin: 0px;
     display: flex;
     overflow: hidden;
     white-space: nowrap;
-    animation: appear 3s;
+    animation: appear 1s;
     .menu_item_description{
         padding: 16px;
         overflow: hidden;
@@ -102,6 +97,8 @@
             background-color: white;
         }
       }
+
+      
       &:hover {
         .confirm{   
         margin-right: 0px;
@@ -111,5 +108,43 @@
         }
        
       }
+      
 
 }
+
+.delay-0{
+    animation-delay: 0;
+  }
+
+  .delay-1{
+    animation-delay: .5s;
+  }
+
+  .delay-2{
+    animation-delay: 1s;
+  }
+
+  .delay-3{
+    animation-delay: 1.5s;
+  }
+
+  .delay-4{
+    animation-delay: 2s;
+  }
+
+  .delay-5{
+    animation-delay: 2.5s;
+  }
+  .delay-6{
+    animation-delay: 3s;
+  }
+
+  .delay-7{
+    animation-delay: 3.5s;
+  }
+
+  .delay-8{
+    animation-delay: 4s;
+  }
+
+  
