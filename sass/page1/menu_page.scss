@@ -46,13 +46,13 @@
     border-radius: 16px;
     box-shadow: 2px 1px 8px 1px lightgrey;
     margin-bottom: 16px;
+    animation: appear 1s;
 }
 .menu_item  {
     margin: 0px;
     display: flex;
     overflow: hidden;
     white-space: nowrap;
-    animation: appear 1s;
     .menu_item_description{
         padding: 16px;
         overflow: hidden;
@@ -113,38 +113,43 @@
 }
 
 .delay-0{
-    animation-delay: 0;
+    animation-delay: 100ms;
   }
 
   .delay-1{
-    animation-delay: .5s;
+    animation-delay: 200ms;
   }
 
   .delay-2{
-    animation-delay: 1s;
+    animation-delay: 300ms;
   }
 
   .delay-3{
-    animation-delay: 1.5s;
+    animation-delay: 400ms;
   }
 
   .delay-4{
-    animation-delay: 2s;
+    animation-delay: 500ms;
   }
 
   .delay-5{
-    animation-delay: 2.5s;
+    animation-delay: 600ms;
   }
   .delay-6{
-    animation-delay: 3s;
+    animation-delay: 700ms;
   }
 
   .delay-7{
-    animation-delay: 3.5s;
+    animation-delay: 800ms;
   }
 
   .delay-8{
-    animation-delay: 4s;
+    animation-delay: 900ms;
   }
+
+  .delay-9{
+    animation-delay: 1000ms;
+  }
+
 
   
