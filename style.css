@@ -121,9 +121,10 @@
     border-radius: 16px;
     flex-grow: 1;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: -12px;
     font-size: larger;
     width: 95%;
+    transition: 200ms;
   }
   .fonctionnement li:hover {
     transform: scale(1.1);
@@ -135,6 +136,10 @@
     list-style-type: none;
     padding-left: 0px;
   }
+  .fonctionnement div {
+    display: flex;
+    align-items: center;
+  }
   .fonctionnement span {
     display: flex;
     width: 32px;
@@ -145,16 +150,18 @@
     color: white;
     border: 1px solid #9356DC;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 36px;
+    margin-left: 20px;
   }
   .fonctionnement i {
     margin-right: 20px;
     font-size: x-large;
   }
-  .fas.fa-store {
-    margin-right: 20px;
-    font-size: x-large;
+  i:hover {
     color: #9356DC;
+  }
+  li:hover {
+    background-color: #E6E6FA;
   }
   .menu {
     background-color: #f6f6f6;
@@ -644,9 +651,10 @@
     border-radius: 16px;
     flex-grow: 1;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: -12px;
     font-size: larger;
     width: 95%;
+    transition: 200ms;
   }
   .fonctionnement li:hover {
     transform: scale(1.1);
@@ -658,6 +666,10 @@
     list-style-type: none;
     padding-left: 0px;
   }
+  .fonctionnement div {
+    display: flex;
+    align-items: center;
+  }
   .fonctionnement span {
     display: flex;
     width: 32px;
@@ -668,16 +680,18 @@
     color: white;
     border: 1px solid #9356DC;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 36px;
+    margin-left: 20px;
   }
   .fonctionnement i {
     margin-right: 20px;
     font-size: x-large;
   }
-  .fas.fa-store {
-    margin-right: 20px;
-    font-size: x-large;
+  i:hover {
     color: #9356DC;
+  }
+  li:hover {
+    background-color: #E6E6FA;
   }
   .menu {
     background-color: #f6f6f6;
@@ -1167,9 +1181,10 @@
     border-radius: 16px;
     flex-grow: 1;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: -12px;
     font-size: larger;
     width: 95%;
+    transition: 200ms;
   }
   .fonctionnement li:hover {
     transform: scale(1.1);
@@ -1181,6 +1196,10 @@
     list-style-type: none;
     padding-left: 0px;
   }
+  .fonctionnement div {
+    display: flex;
+    align-items: center;
+  }
   .fonctionnement span {
     display: flex;
     width: 32px;
@@ -1191,16 +1210,18 @@
     color: white;
     border: 1px solid #9356DC;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 36px;
+    margin-left: 20px;
   }
   .fonctionnement i {
     margin-right: 20px;
     font-size: x-large;
   }
-  .fas.fa-store {
-    margin-right: 20px;
-    font-size: x-large;
+  i:hover {
     color: #9356DC;
+  }
+  li:hover {
+    background-color: #E6E6FA;
   }
   .menu {
     background-color: #f6f6f6;
