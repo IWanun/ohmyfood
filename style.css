@@ -113,22 +113,25 @@
     margin-bottom: 50px;
     font-size: xx-large;
   }
-  .fonctionnement li {
+  .fonctionnement .fonct_1 {
     display: flex;
     align-items: center;
     padding: 16px 32px;
-    border: 1px solid lightgrey;
+    border: 1px solid white;
+    box-shadow: 2px 1px 8px 1px lightgrey;
     border-radius: 16px;
     flex-grow: 1;
     margin-right: 20px;
-    margin-left: -12px;
+    margin-left: -5px;
     font-size: larger;
     width: 95%;
+    height: 86px;
+    background-color: #f6f6f6;
   }
-  .fonctionnement ol {
+  .fonctionnement.fonct {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 27px;
     list-style-type: none;
     padding-left: 0px;
   }
@@ -139,25 +142,33 @@
   }
   .fonctionnement span {
     display: flex;
-    width: 32px;
-    height: 32px;
+    width: 26px;
+    height: 26px;
     justify-content: center;
     align-items: center;
     background-color: #9356DC;
     color: white;
     border: 1px solid #9356DC;
     border-radius: 50%;
-    margin-right: 36px;
+    margin-right: -7px;
     margin-left: 20px;
+    z-index: 3;
   }
   .fonctionnement i {
     margin-right: 20px;
     font-size: x-large;
+    color: grey;
   }
   i:hover {
     color: #9356DC;
   }
-  li:hover {
+  #number3:hover .fas.fa-store {
+    color: #9356DC !important;
+  }
+  #title_degustez {
+    color: black;
+  }
+  .fonct_1:hover {
     background-color: #E6E6FA;
   }
   .menu {
@@ -185,7 +196,7 @@
   .menu .cards .new {
     position: absolute;
     color: black;
-    margin-left: 70%;
+    margin-left: 80%;
     margin-top: 15px;
   }
   .menu .cards .new::before {
@@ -640,22 +651,25 @@
     margin-bottom: 50px;
     font-size: xx-large;
   }
-  .fonctionnement li {
+  .fonctionnement .fonct_1 {
     display: flex;
     align-items: center;
     padding: 16px 32px;
-    border: 1px solid lightgrey;
+    border: 1px solid white;
+    box-shadow: 2px 1px 8px 1px lightgrey;
     border-radius: 16px;
     flex-grow: 1;
     margin-right: 20px;
-    margin-left: -12px;
+    margin-left: -5px;
     font-size: larger;
     width: 95%;
+    height: 86px;
+    background-color: #f6f6f6;
   }
-  .fonctionnement ol {
+  .fonctionnement.fonct {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 27px;
     list-style-type: none;
     padding-left: 0px;
   }
@@ -666,25 +680,33 @@
   }
   .fonctionnement span {
     display: flex;
-    width: 32px;
-    height: 32px;
+    width: 26px;
+    height: 26px;
     justify-content: center;
     align-items: center;
     background-color: #9356DC;
     color: white;
     border: 1px solid #9356DC;
     border-radius: 50%;
-    margin-right: 36px;
+    margin-right: -7px;
     margin-left: 20px;
+    z-index: 3;
   }
   .fonctionnement i {
     margin-right: 20px;
     font-size: x-large;
+    color: grey;
   }
   i:hover {
     color: #9356DC;
   }
-  li:hover {
+  #number3:hover .fas.fa-store {
+    color: #9356DC !important;
+  }
+  #title_degustez {
+    color: black;
+  }
+  .fonct_1:hover {
     background-color: #E6E6FA;
   }
   .menu {
@@ -697,6 +719,7 @@
   }
   .menu_cards {
     display: flex;
+    flex-direction: column;
     gap: 30px;
   }
   .menu .cards {
@@ -711,7 +734,7 @@
   .menu .cards .new {
     position: absolute;
     color: black;
-    margin-left: 70%;
+    margin-left: 80%;
     margin-top: 15px;
   }
   .menu .cards .new::before {
@@ -791,7 +814,7 @@
     gap: 100px;
   }
   header #title_restaurant1 {
-    width: 87%;
+    width: 40%;
   }
   header a {
     margin: 20px;
@@ -800,7 +823,6 @@
   .img_page img {
     width: 100%;
     object-fit: cover;
-    height: 420px;
   }
   .img_page2 img {
     width: 100%;
@@ -1167,22 +1189,25 @@
     margin-bottom: 50px;
     font-size: xx-large;
   }
-  .fonctionnement li {
+  .fonctionnement .fonct_1 {
     display: flex;
     align-items: center;
     padding: 16px 32px;
-    border: 1px solid lightgrey;
+    border: 1px solid white;
+    box-shadow: 2px 1px 8px 1px lightgrey;
     border-radius: 16px;
     flex-grow: 1;
     margin-right: 20px;
-    margin-left: -12px;
+    margin-left: -5px;
     font-size: larger;
     width: 95%;
+    height: 86px;
+    background-color: #f6f6f6;
   }
-  .fonctionnement ol {
+  .fonctionnement.fonct {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 27px;
     list-style-type: none;
     padding-left: 0px;
   }
@@ -1193,25 +1218,33 @@
   }
   .fonctionnement span {
     display: flex;
-    width: 32px;
-    height: 32px;
+    width: 26px;
+    height: 26px;
     justify-content: center;
     align-items: center;
     background-color: #9356DC;
     color: white;
     border: 1px solid #9356DC;
     border-radius: 50%;
-    margin-right: 36px;
+    margin-right: -7px;
     margin-left: 20px;
+    z-index: 3;
   }
   .fonctionnement i {
     margin-right: 20px;
     font-size: x-large;
+    color: grey;
   }
   i:hover {
     color: #9356DC;
   }
-  li:hover {
+  #number3:hover .fas.fa-store {
+    color: #9356DC !important;
+  }
+  #title_degustez {
+    color: black;
+  }
+  .fonct_1:hover {
     background-color: #E6E6FA;
   }
   .menu {
@@ -1239,7 +1272,7 @@
   .menu .cards .new {
     position: absolute;
     color: black;
-    margin-left: 70%;
+    margin-left: 80%;
     margin-top: 15px;
   }
   .menu .cards .new::before {
