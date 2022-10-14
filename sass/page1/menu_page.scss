@@ -63,6 +63,12 @@
     padding: 0px;
     margin: 0px;
     }
+    .ellipsis_text{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
     p{
         font-weight: 100;
         padding: 0px;
