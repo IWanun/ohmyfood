@@ -1,4 +1,4 @@
-@media (max-width: 560px){
+
     *, *::before, *::after {
         box-sizing: border-box;
        
@@ -14,47 +14,57 @@
     @import "./page1/restaurant1.scss";
     @import "./page1/restaurants2.scss";
     @import "./page1/menu_page.scss";
-  }
+  
 
-@media (min-width:800px){
+    @media (max-width:559px){
  
-  *, *::before, *::after {
-    box-sizing: border-box;
-   
-}
-@import "./layout/base.scss";
-@import "./layout/header.scss";
-@import "./layout/main.scss";
-@import "./layout/reservation.scss";
-@import "./layout/fonctionnement.scss";
-@import "./layout/menu.scss";
-@import "./layout/footer.scss";
-@import "./page1/restaurant1.scss";
-@import "./page1/restaurants2.scss";
-@import "./page1/menu_page.scss";
-
-}
-
-
-@media (min-width:561px) and (max-width:799px){
-  *, *::before, *::after {
-    box-sizing: border-box;
-   
+      *, *::before, *::after {
+        box-sizing: border-box;
+       
+    }
+    .menu .cards .new{
+      margin-left: 80%;
   }
-  @import "./layout/base.scss";
-@import "./layout/header.scss";
-@import "./layout/main.scss";
-@import "./layout/reservation.scss";
-@import "./layout/fonctionnement.scss";
-@import "./layout/menu.scss";
-@import "./layout/footer.scss";
-@import "./page1/restaurant1.scss";
-@import "./page1/restaurants2.scss";
-@import "./page1/menu_page.scss";
+    .menu_cards {
+    flex-direction: column;
+    }
+    
+    .img_page img{
+      height: 300px;
+    }
 
-}
+    .img_page2 img{
+      height: 400px;
+    }
 
-@media (min-width:1299px){
+    header #title_restaurant1{
+      width: 40%;
+    }
+
+    #title_degustez1,#title_degustez2,#title_degustez3{
+      font-size: 20px;
+    }
+
+    }
+    
+    
+    @media (max-width:1000px) and (min-width:560px){
+ 
+      *, *::before, *::after {
+        box-sizing: border-box;
+       
+    }
+    @import "../mobile_tablette_modif/tablette.scss";
+
+    .menu .cards .new{
+      margin-left: 85%;
+  }
+
+    }
+
+
+
+@media  (min-width:1000px) and (max-width:1299px){
  
   *, *::before, *::after {
     box-sizing: border-box;
@@ -63,7 +73,21 @@
 .menu .cards .new {
   position: absolute;
   color: black;
-  margin-left: 90%;
+  margin-left: 60%;
+  margin-top: 15px;
+}
+}
+
+@media (min-width:1299px) and (max-width:1800px){
+ 
+  *, *::before, *::after {
+    box-sizing: border-box;
+   
+}
+.menu .cards .new {
+  position: absolute;
+  color: black;
+  margin-left: 70%;
   margin-top: 15px;
 }
 }

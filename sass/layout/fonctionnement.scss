@@ -33,6 +33,7 @@ display: flex;
 flex-direction: row;
 width: 100%;
 align-items: center;
+margin-bottom: 20px;
 }
 
 .fonctionnement span{
@@ -51,7 +52,9 @@ align-items: center;
    
 }
 
-
+#title_degustez{
+  font-size: 25px;
+}
 
 .fonctionnement i{
    margin-right: 20px;
@@ -75,8 +78,9 @@ i:hover{
    color: #9356DC !important;
  }
 
-#title_degustez{
+#title_degustez1,#title_degustez2,#title_degustez3{
   color: black;
+  font-size: 25px;
 }
 
 .fonct_1:hover{
