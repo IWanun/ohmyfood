@@ -54,7 +54,7 @@
 
 }
 
-@media (max-width:1299px){
+@media (min-width:1299px){
  
   *, *::before, *::after {
     box-sizing: border-box;
@@ -63,7 +63,7 @@
 .menu .cards .new {
   position: absolute;
   color: black;
-  margin-left: 60%;
+  margin-left: 90%;
   margin-top: 15px;
 }
 }

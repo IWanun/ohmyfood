@@ -9,6 +9,7 @@
     margin: 0px;
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
+    background-color: #f6f6f6;
   }
   .spinner {
     display: flex;
@@ -135,10 +136,11 @@
     list-style-type: none;
     padding-left: 0px;
   }
-  .fonctionnement div {
+  #number1, #number2, #number3 {
     display: flex;
+    flex-direction: row;
+    width: 100%;
     align-items: center;
-    cursor: pointer;
   }
   .fonctionnement span {
     display: flex;
@@ -163,6 +165,12 @@
     color: #9356DC;
   }
   #number3:hover .fas.fa-store {
+    color: #9356DC !important;
+  }
+  #number1:hover .fas.fa-mobile-alt {
+    color: #9356DC !important;
+  }
+  #number2:hover .fas.fa-list {
     color: #9356DC !important;
   }
   #title_degustez {
@@ -296,7 +304,7 @@
     border: 1px solid white;
     border-radius: 48px 48px 0 0;
     margin-top: -64px;
-    background-color: white;
+    background-color: #f6f6f6;
   }
   .main_page h2 {
     font-family: "Shrikhand", "sans-serif";
@@ -428,7 +436,7 @@
     font-weight: 300;
     text-transform: uppercase;
     position: relative;
-    background-color: white;
+    background-color: #f6f6f6;
     margin-top: 0px;
   }
   .menu_page h3:after {
@@ -553,6 +561,7 @@
     margin: 0px;
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
+    background-color: #f6f6f6;
   }
   .spinner {
     display: flex;
@@ -679,10 +688,11 @@
     list-style-type: none;
     padding-left: 0px;
   }
-  .fonctionnement div {
+  #number1, #number2, #number3 {
     display: flex;
+    flex-direction: row;
+    width: 100%;
     align-items: center;
-    cursor: pointer;
   }
   .fonctionnement span {
     display: flex;
@@ -707,6 +717,12 @@
     color: #9356DC;
   }
   #number3:hover .fas.fa-store {
+    color: #9356DC !important;
+  }
+  #number1:hover .fas.fa-mobile-alt {
+    color: #9356DC !important;
+  }
+  #number2:hover .fas.fa-list {
     color: #9356DC !important;
   }
   #title_degustez {
@@ -840,7 +856,7 @@
     border: 1px solid white;
     border-radius: 48px 48px 0 0;
     margin-top: -64px;
-    background-color: white;
+    background-color: #f6f6f6;
   }
   .main_page h2 {
     font-family: "Shrikhand", "sans-serif";
@@ -972,7 +988,7 @@
     font-weight: 300;
     text-transform: uppercase;
     position: relative;
-    background-color: white;
+    background-color: #f6f6f6;
     margin-top: 0px;
   }
   .menu_page h3:after {
@@ -1097,6 +1113,7 @@
     margin: 0px;
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
+    background-color: #f6f6f6;
   }
   .spinner {
     display: flex;
@@ -1223,10 +1240,11 @@
     list-style-type: none;
     padding-left: 0px;
   }
-  .fonctionnement div {
+  #number1, #number2, #number3 {
     display: flex;
+    flex-direction: row;
+    width: 100%;
     align-items: center;
-    cursor: pointer;
   }
   .fonctionnement span {
     display: flex;
@@ -1251,6 +1269,12 @@
     color: #9356DC;
   }
   #number3:hover .fas.fa-store {
+    color: #9356DC !important;
+  }
+  #number1:hover .fas.fa-mobile-alt {
+    color: #9356DC !important;
+  }
+  #number2:hover .fas.fa-list {
     color: #9356DC !important;
   }
   #title_degustez {
@@ -1384,7 +1408,7 @@
     border: 1px solid white;
     border-radius: 48px 48px 0 0;
     margin-top: -64px;
-    background-color: white;
+    background-color: #f6f6f6;
   }
   .main_page h2 {
     font-family: "Shrikhand", "sans-serif";
@@ -1516,7 +1540,7 @@
     font-weight: 300;
     text-transform: uppercase;
     position: relative;
-    background-color: white;
+    background-color: #f6f6f6;
     margin-top: 0px;
   }
   .menu_page h3:after {
@@ -1630,14 +1654,14 @@
     animation-delay: 1000ms;
   }
 }
-@media (max-width: 1299px) {
+@media (min-width: 1299px) {
   *, *::before, *::after {
     box-sizing: border-box;
   }
   .menu .cards .new {
     position: absolute;
     color: black;
-    margin-left: 60%;
+    margin-left: 90%;
     margin-top: 15px;
   }
 }
