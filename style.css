@@ -244,8 +244,8 @@ i:hover {
 .menu .cards .new {
   position: absolute;
   color: black;
-  margin-left: 78%;
-  margin-top: -39%;
+  margin-left: 81%;
+  margin-top: 3%;
 }
 .menu .cards .new::before {
   content: "Nouveau";
@@ -264,6 +264,12 @@ i:hover {
   width: 100%;
   background-size: cover;
   border-radius: 16px 16px 0 0;
+}
+.cards .image1 {
+  background-image: url(../../assets/la_pallete_du_gout.jpg);
+}
+.cards .image2 {
+  background-image: url(../../assets/la_note_enchanter.jpg);
 }
 .cards .image3 {
   background-image: url(../../assets/a_la_francaise.jpg);
@@ -656,7 +662,7 @@ header a {
   }
   .menu .cards .new {
     margin-left: 85%;
-    margin-top: -33%;
+    margin-top: 2%;
   }
 }
 @media (max-width: 785px) and (min-width: 757px) {
@@ -671,7 +677,7 @@ header a {
   }
   .menu .cards .new {
     margin-left: 85%;
-    margin-top: -27%;
+    margin-top: 2%;
   }
 }
 @media (max-width: 1000px) and (min-width: 786px) {
@@ -680,7 +686,7 @@ header a {
   }
   .menu .cards .new {
     margin-left: 50%;
-    margin-top: -100%;
+    margin-top: 10%;
   }
 }
 @media (min-width: 1000px) and (max-width: 1299px) {
@@ -688,64 +694,8 @@ header a {
     box-sizing: border-box;
   }
   .menu .cards .new {
-    position: absolute;
-    color: black;
     margin-left: 57%;
-    margin-top: -90%;
-  }
-}
-@media (min-width: 1084px) and (max-width: 1299px) {
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  .menu .cards .new {
-    margin-left: 57%;
-    margin-top: -85%;
-  }
-}
-@media (min-width: 1136px) and (max-width: 1299px) {
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  .menu .cards .new {
-    margin-left: 62%;
-    margin-top: -80%;
-  }
-}
-@media (min-width: 1234px) and (max-width: 1299px) {
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  .menu .cards .new {
-    margin-left: 65%;
-    margin-top: -71%;
-  }
-}
-@media (min-width: 1299px) and (max-width: 1360px) {
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  .menu .cards .new {
-    margin-left: 68%;
-    margin-top: -68%;
-  }
-}
-@media (min-width: 1361px) and (max-width: 1409px) {
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  .menu .cards .new {
-    margin-left: 68%;
-    margin-top: -66%;
-  }
-}
-@media (min-width: 1410px) and (max-width: 1500px) {
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  .menu .cards .new {
-    margin-left: 68%;
-    margin-top: -63%;
+    margin-top: 5%;
   }
 }
 

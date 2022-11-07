@@ -28,8 +28,8 @@
       .new{
         position: absolute;
         color: black;
-        margin-left: 78%;
-        margin-top: -39%;
+        margin-left: 81%;
+        margin-top: 3%;
       }
       .new::before{
         content: "Nouveau";
@@ -52,8 +52,12 @@
         border-radius: 16px 16px 0 0 ;
     
     }
-  
- 
+    & .image1{
+        background-image: url(../../assets/la_pallete_du_gout.jpg);
+    }
+    & .image2{
+        background-image: url(../../assets/la_note_enchanter.jpg);
+    }
   
     & .image3{
         background-image: url(../../assets/a_la_francaise.jpg);
