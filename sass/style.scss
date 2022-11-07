@@ -48,7 +48,7 @@
     }
     
     
-    @media (max-width:1000px) and (min-width:560px){
+    @media (max-width:785px) and (min-width:560px){
  
       *, *::before, *::after {
         box-sizing: border-box;
@@ -58,11 +58,39 @@
 
     .menu .cards .new{
       margin-left: 85%;
+      margin-top: -33%;
+  }
+
+    }
+        
+    @media (max-width:785px) and (min-width:757px){
+ 
+      *, *::before, *::after {
+        box-sizing: border-box;
+       
+    }
+    @import "../mobile_tablette_modif/tablette.scss";
+
+    .menu .cards .new{
+      margin-left: 85%;
+      margin-top: -27%;
   }
 
     }
 
+    @media (max-width:1000px) and (min-width:786px){
 
+      *, *::before, *::after {
+        box-sizing: border-box;
+       
+    }
+      
+      .menu .cards .new{
+        margin-left: 50%;
+        margin-top: -100%;
+      }
+
+    }
 
 @media  (min-width:1000px) and (max-width:1299px){
  
@@ -73,22 +101,82 @@
 .menu .cards .new {
   position: absolute;
   color: black;
-  margin-left: 60%;
-  margin-top: 15px;
+  margin-left: 57%;
+  margin-top: -90%;
 }
 }
 
-@media (min-width:1299px) and (max-width:1800px){
+@media  (min-width:1084px) and (max-width:1299px){
  
   *, *::before, *::after {
     box-sizing: border-box;
    
 }
 .menu .cards .new {
-  position: absolute;
-  color: black;
-  margin-left: 70%;
-  margin-top: 15px;
+  margin-left: 57%;
+  margin-top: -85%;
 }
 }
+
+@media  (min-width:1136px) and (max-width:1299px){
+ 
+  *, *::before, *::after {
+    box-sizing: border-box;
+   
+}
+.menu .cards .new {
+  margin-left: 62%;
+  margin-top: -80%;
+}
+}
+
+@media  (min-width:1234px) and (max-width:1299px){
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+   
+}
+  .menu .cards .new{
+    margin-left: 65%;
+    margin-top: -71%;
+  }
+}
+
+@media (min-width:1299px) and (max-width:1360px){
+ 
+  *, *::before, *::after {
+    box-sizing: border-box;
+   
+}
+.menu .cards .new {
+  margin-left: 68%;
+  margin-top: -68%;
+}
+}
+
+@media (min-width:1361px) and (max-width:1409px){
+ 
+  *, *::before, *::after {
+    box-sizing: border-box;
+   
+}
+.menu .cards .new {
+  margin-left: 68%;
+  margin-top: -66%;
+}
+}
+
+@media (min-width:1410px) and (max-width:1500px){
+ 
+  *, *::before, *::after {
+    box-sizing: border-box;
+   
+}
+.menu .cards .new {
+  margin-left: 68%;
+  margin-top: -63%;
+}
+}
+
+
   
