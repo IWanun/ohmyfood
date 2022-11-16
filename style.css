@@ -107,7 +107,7 @@ main .city i {
 .reservation p {
   font-size: 20px;
   text-align: center;
-  width: 81%;
+  width: 95%;
   margin-left: 60px;
   color: gray;
 }
@@ -266,16 +266,16 @@ i:hover {
   border-radius: 16px 16px 0 0;
 }
 .cards .image1 {
-  background-image: url(../../assets/la_pallete_du_gout.jpg);
+  background-image: url(assets/la_pallete_du_gout.jpg);
 }
 .cards .image2 {
-  background-image: url(../../assets/la_note_enchanter.jpg);
+  background-image: url(assets/la_note_enchanter.jpg);
 }
 .cards .image3 {
-  background-image: url(../../assets/a_la_francaise.jpg);
+  background-image: url(assets/a_la_francaise.jpg);
 }
 .cards .image4 {
-  background-image: url(../../assets/le_delice_des_sens.jpg);
+  background-image: url(assets/le_delice_des_sens.jpg);
 }
 .cards .description {
   position: relative;
