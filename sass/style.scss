@@ -46,15 +46,26 @@
     }
     .reservation button{
       height: 5vh;
+      width: 70vw;
     }
     .reservation p{
       width: 78%;
     }
     .command button{
       height: 5vh;
+      width: 70vw;
     }
 
 
+    }
+    @media (max-width:390px){
+      *, *::before, *::after {
+        box-sizing: border-box;
+       
+    }
+    .menu .cards .new{
+      margin-left: 74%;
+  }
     }
     
     
@@ -113,6 +124,8 @@
   margin-top: 5%;
 }
 }
+
+
 
 
 

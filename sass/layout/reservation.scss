@@ -19,6 +19,7 @@
     height: 8vh;
     border-radius: 32px;
     background-image: linear-gradient(to top, rgb(148,0,211), rgb(255,192,203));
+    filter: brightness(115%);
     font-size: 19px;
     color: white;
     border: none;
@@ -28,4 +29,5 @@
 
  .reservation button:hover{
     transform: scale(1.1);
+    box-shadow: 2px 1px 16px -3px #000000;
  }
